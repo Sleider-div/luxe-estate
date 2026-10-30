@@ -42,7 +42,7 @@ export function HeroSection({
           Find your{" "}
           <span className="relative inline-block">
             <span className="relative z-10 font-medium">sanctuary</span>
-            <span className="absolute bottom-2 left-0 w-full h-3 bg-mosque/20 -rotate-1 z-0" />
+            <span className="absolute bottom-2 left-0 w-full h-3 bg-mosque/20 -rotate-1 rounded-full z-0" />
           </span>
           .
         </h1>
@@ -68,7 +68,7 @@ export function HeroSection({
           <button
             type="button"
             onClick={onSearchSubmit}
-            className="absolute inset-y-2 right-2 px-6 bg-mosque hover:bg-mosque/90 text-white font-medium rounded-lg transition-colors flex items-center justify-center shadow-lg shadow-mosque/20 cursor-pointer"
+            className="absolute inset-y-2 right-2 px-6 bg-mosque hover:bg-mosque/90 active:scale-[0.98] text-white font-medium rounded-lg transition-all flex items-center justify-center shadow-lg shadow-mosque/20 cursor-pointer"
           >
             Search
           </button>
